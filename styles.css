@@ -1,0 +1,134 @@
+html {
+	background-image: url(/pink-bright-texture-designer-background-260nw-1040229760.webp);
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	color: rgb(49, 25, 25);
+	font-size: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1024px;
+}
+
+.PAGE-1-REAL{
+    display: grid; 
+    grid-template-areas: 
+    "Heading"
+    
+    "Side-Heading"
+    "P-1"
+    "P-2"
+    "P-3"
+    "P-4"
+    "P-5"
+    "P-6"
+    "P-7"
+    "P-8"
+
+    "info";
+}
+.Heading > h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+  font-weight: 600;
+  color: #11132d;
+  text-shadow: 0px 0px 5px #d20a0a, 0px 0px 10px #e90d1b, 0px 0px 10px #d0182d,
+    0px 0px 20px #b40c28;
+}
+.Side-Heading >  h3{
+    position: absolute;
+    top: 140px;
+    right: 545px;
+    color: #141a5c;
+    font-family: cursive;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 30px;   
+}
+
+
+.P-1 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 150px;
+    left:100px;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color:#da0707;
+}
+.P-2 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 150px;
+    right:150px;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color:#151837;
+}
+.P-3 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 330px;
+    left:100px;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color:#19153f;
+}
+.P-4 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 350px;
+    right:450px;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color:#e92f44;
+}
+.P-5 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 450px;
+    left:100px;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color:#b62328;
+}
+.P-6 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 440px;
+    right:130px;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color:#d32222;
+}
+.P-7 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 625px;
+    left:360px;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color:#222445;
+}
+.P-8 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 600px;
+    right: 400px;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color:#1d2256;
+}
